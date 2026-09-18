@@ -1,54 +1,34 @@
 package main
 
-// log — стандартная библиотека для логирования
-// tgbotapi(alias) "url библиотеки" — библиотека для работы с Telegram Bot API
 import (
+	"go_tele_bot/bot"
+	"go_tele_bot/handlers"
 	"log"
+	"os"
 
-	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	telegram "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
 func main() {
-	// Передаём токен и создаём объект бота
-	bot, err := tgbotapi.NewBotAPI("Token")
+	token := os.Getenv("TELEGRAM_BOT_TOKEN")
 
-	// Обработка ошибки. Panic — вывод ошибки и остановка программы
+	if token == "" {
+		log.Fatal("TELEGRAM_BOT_TOKEN is not set in the environment variables")
+	}
+
+	telegramBot, err := telegram.NewBotAPI(token)
 	if err != nil {
-		log.Panic(err)
+		log.Fatalf("Failed to create Telegram bot: %v", err)
 	}
 
-	bot.Debug = true                                          // Включаем дополнительную отладочную информацию
-	log.Printf("Authorized on account %s", bot.Self.UserName) // Self — информация о самом боте, UserName — username бота
+	telegramBot.Debug = bot.Debug
+	log.Printf("Authorized on account %s", telegramBot.Self.UserName)
 
-	// Настройка бота
-	u := tgbotapi.NewUpdate(0)       // Настройка получения обновлений
-	u.Timeout = 60                   // Время ожидания новых обновлений при long polling
-	updates := bot.GetUpdatesChan(u) // Получаем канал с обновлениями от Telegram
-
-	// Берём очередное событие из канала updates
+	updateConfig := telegram.NewUpdate(0)
+	updateConfig.Timeout = bot.PollingTimeout
+	updates := telegramBot.GetUpdatesChan(updateConfig)
 	for update := range updates {
-		// Проверяем, содержит ли Update обычное сообщение
-		if update.Message != nil {
-			// Выводим username пользователя и текст сообщения
-			log.Printf(
-				"[%s] %s",
-				update.Message.From.UserName,
-				update.Message.Text,
-			)
-
-			msg := tgbotapi.NewMessage(
-				update.Message.Chat.ID,
-				update.Message.Text,
-			) // Создаём сообщение: первый аргумент — Chat ID, второй — текст сообщения
-
-			msg.ReplyToMessageID = update.Message.MessageID // Делаем наше сообщение ответом на сообщение пользователя
-
-			_, err := bot.Send(msg) // Отправляем сообщение
-
-			// Проверяем ошибку отправки
-			if err != nil {
-				log.Println(err)
-			}
-		}
+		handlers.HandleUpdate(telegramBot, update)
 	}
+
 }
