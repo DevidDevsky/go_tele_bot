@@ -21,10 +21,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/yourusername/go_tele_bot?style=flat-square" alt="License">
-  <img src="https://img.shields.io/github/stars/yourusername/go_tele_bot?style=flat-square" alt="Stars">
-  <img src="https://img.shields.io/github/issues/yourusername/go_tele_bot?style=flat-square" alt="Issues">
-  <img src="https://img.shields.io/github/last-commit/yourusername/go_tele_bot?style=flat-square" alt="Last Commit">
+  <img src="https://img.shields.io/github/license/DevidDevsky/go_tele_bot?style=flat-square" alt="License">
+  <img src="https://img.shields.io/github/stars/DevidDevsky/go_tele_bot?style=flat-square" alt="Stars">
+  <img src="https://img.shields.io/github/issues/DevidDevsky/go_tele_bot?style=flat-square" alt="Issues">
+  <img src="https://img.shields.io/github/last-commit/DevidDevsky/go_tele_bot?style=flat-square" alt="Last Commit">
 </p>
 
 </div>
@@ -389,9 +389,9 @@ git push origin feature/amazing-feature
 
 <div align="center">
 
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/go_tele_bot?style=flat-square)
-![GitHub code size](https://img.shields.io/github/languages/code-size/yourusername/go_tele_bot?style=flat-square)
-![Lines of code](https://img.shields.io/tokei/lines/github/yourusername/go_tele_bot?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/DevidDevsky/go_tele_bot?style=flat-square)
+![GitHub code size](https://img.shields.io/github/languages/code-size/DevidDevsky/go_tele_bot?style=flat-square)
+![Lines of code](https://img.shields.io/tokei/lines/github/DevidDevsky/go_tele_bot?style=flat-square)
 
 </div>
 
