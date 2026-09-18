@@ -1,2 +1,65 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Go source files
+*.go text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+LICENSE text eol=lf
+CHANGELOG text eol=lf
+
+# Configuration files
+.env* text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.xml text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# Go specific
+go.mod text eol=lf
+go.sum text eol=lf
+
+# Exclude files from export
+.github export-ignore
+.vscode export-ignore
+.idea export-ignore
+.DS_Store export-ignore
+*.log export-ignore
+tmp/ export-ignore
+temp/ export-ignore
+Plan_documents/ export-ignore
+
+# Linguist overrides for GitHub language stats
+*.md linguist-documentation
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
+docs/* linguist-documentation
+Plan_documents/* linguist-documentation=false linguist-vendored

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Техничка/Инициализация бота.md",
+                "file": "Техничка/План разработки Demo 1.0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Инициализация бота"
+              "title": "План разработки Demo 1.0"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Техничка/Инициализация бота.md",
+                "file": "Техничка/План разработки Demo 1.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Техничка/Инициализация бота.md",
+                "file": "Техничка/План разработки Demo 1.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Техничка/Инициализация бота.md",
+                "file": "Техничка/План разработки Demo 1.0.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,7 +190,7 @@
   },
   "active": "4bcff38c9d897c44",
   "lastOpenFiles": [
-    "Техничка/План разработки Demo 1.0.md",
-    "Техничка/Инициализация бота.md"
+    "Техничка/Инициализация бота.md",
+    "Техничка/План разработки Demo 1.0.md"
   ]
 }
