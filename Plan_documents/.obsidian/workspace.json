@@ -1,16 +1,5 @@
 {
   "main": {
-<<<<<<< Updated upstream
-    "id": "9aa2da1ba46dde90",
-    "type": "split",
-    "children": [
-      {
-        "id": "d37151670ac0ff2c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "941a6392bc8c5e25",
-=======
     "id": "0fd9809a5e8a3e9a",
     "type": "split",
     "children": [
@@ -20,25 +9,16 @@
         "children": [
           {
             "id": "4bcff38c9d897c44",
->>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Техничка/Реагирование на команду start.md",
-=======
-                "file": "Техничка/План разработки Demo 1.0.md",
->>>>>>> Stashed changes
+                "file": "Техничка/Инициализация бота.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< Updated upstream
-              "title": "Реагирование на команду start"
-=======
-              "title": "План разработки Demo 1.0"
->>>>>>> Stashed changes
+              "title": "Инициализация бота"
             }
           }
         ]
@@ -47,17 +27,6 @@
     "direction": "vertical"
   },
   "left": {
-<<<<<<< Updated upstream
-    "id": "ed3df6f484484684",
-    "type": "split",
-    "children": [
-      {
-        "id": "22b8b83c4e87ce84",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "900cb7abc87d7415",
-=======
     "id": "713bb45342662ab4",
     "type": "split",
     "children": [
@@ -67,7 +36,6 @@
         "children": [
           {
             "id": "5429e630e52a63df",
->>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -82,11 +50,7 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "4a5e46564bb0eed3",
-=======
             "id": "79415ef06dc67116",
->>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "search",
@@ -103,11 +67,7 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "063d7b66eb0e20c3",
-=======
             "id": "cbf6ed62d80f2b72",
->>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -126,17 +86,6 @@
     "width": 300
   },
   "right": {
-<<<<<<< Updated upstream
-    "id": "eaa2b2051a794237",
-    "type": "split",
-    "children": [
-      {
-        "id": "d880e8502c84510e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "28f809560a36a08a",
-=======
     "id": "d0ce124e44c18736",
     "type": "split",
     "children": [
@@ -146,12 +95,11 @@
         "children": [
           {
             "id": "b4570b36af6ecfb6",
->>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Техничка/План разработки Demo 1.0.md",
+                "file": "Техничка/Инициализация бота.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,16 +113,12 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "0e7b38853106188e",
-=======
             "id": "5ad7846ea6c06f7f",
->>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Техничка/План разработки Demo 1.0.md",
+                "file": "Техничка/Инициализация бота.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -183,11 +127,7 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "2064ebc49bcd6acf",
-=======
             "id": "b3f1316502c632c9",
->>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -202,11 +142,7 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "00e79798742ed58b",
-=======
             "id": "07ae8b684ada1212",
->>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -220,16 +156,12 @@
             }
           },
           {
-<<<<<<< Updated upstream
-            "id": "a76492181e7bb53f",
-=======
             "id": "4528c37374637aa4",
->>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Техничка/План разработки Demo 1.0.md",
+                "file": "Техничка/Инициализация бота.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -256,19 +188,9 @@
       "bases:Создать новую базу": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "941a6392bc8c5e25",
-  "lastOpenFiles": [
-    "Техничка/План разработки Demo 1.0.md",
-    "Техничка/Инициализация бота.md",
-    "Техничка/Правильная архитектура.md",
-    "Техничка/Реагирование на команду start.md",
-    "Техничка/Инициализация клавиатуры к приветственному сообщению.md",
-    "AI Student Assistant.md"
-=======
   "active": "4bcff38c9d897c44",
   "lastOpenFiles": [
+    "Техничка/План разработки Demo 1.0.md",
     "Техничка/Инициализация бота.md"
->>>>>>> Stashed changes
   ]
 }
