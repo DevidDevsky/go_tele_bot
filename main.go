@@ -54,7 +54,7 @@ func main() {
 
 	updates := telegramBot.GetUpdatesChan(updateConfig)
 
-	for update := range updates {
-		HandleUpdate(telegramBot, update)
+	for range updates {
+		// Положить функцию которая определит тип handler.go
 	}
 }
