@@ -22,6 +22,7 @@ package main
 
 import (
 	"go_tele_bot/bot"
+	"go_tele_bot/handlers"
 	"log"
 	"os"
 
@@ -54,7 +55,7 @@ func main() {
 
 	updates := telegramBot.GetUpdatesChan(updateConfig)
 
-	for range updates {
-		// Положить функцию которая определит тип handler.go
+	for update := range updates {
+		handlers.HandleUpdate(telegramBot, update)
 	}
 }
