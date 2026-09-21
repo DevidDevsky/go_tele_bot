@@ -1,25 +1,20 @@
-package handlers
+﻿package handlers
 
 import (
-	"log"
+"log"
 
-	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
+tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
-func HandleCommands(ctx *HandlerContext) {
-	if ctx.Update.Message == nil {
-		return
-	}
+func HandleStart(ctx *HandlerContext) {
+log.Printf("%#v", ctx.UserInfo) // next to db
 
-	switch ctx.Update.Message.Command() {
-	case "start":
-		msg := tgbotapi.NewMessage(
-			ctx.UserInfo.ChatID,
-			"Привет! 👋 Добро пожаловать в бота!",
-		)
+msg := tgbotapi.NewMessage(
+ctx.UserInfo.ChatID,
+"Привет! 👋 Добро пожаловать в бота!",
+)
 
-		if _, err := ctx.Bot.Send(msg); err != nil {
-			log.Println(err)
-		}
-	}
+if _, err := ctx.Bot.Send(msg); err != nil {
+log.Println(err)
+}
 }

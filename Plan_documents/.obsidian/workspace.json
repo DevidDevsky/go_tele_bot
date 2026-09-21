@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "9aa2da1ba46dde90",
+    "id": "0fd9809a5e8a3e9a",
     "type": "split",
     "children": [
       {
-        "id": "d37151670ac0ff2c",
+        "id": "a9dfef463f74e721",
         "type": "tabs",
         "children": [
           {
-            "id": "941a6392bc8c5e25",
+            "id": "4bcff38c9d897c44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Техничка/Реагирование на команду start.md",
+                "file": "Техничка/План разработки Demo 1.0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Реагирование на команду start"
+              "title": "План разработки Demo 1.0"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ed3df6f484484684",
+    "id": "713bb45342662ab4",
     "type": "split",
     "children": [
       {
-        "id": "22b8b83c4e87ce84",
+        "id": "c472828f784e4433",
         "type": "tabs",
         "children": [
           {
-            "id": "900cb7abc87d7415",
+            "id": "5429e630e52a63df",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "4a5e46564bb0eed3",
+            "id": "79415ef06dc67116",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +67,7 @@
             }
           },
           {
-            "id": "063d7b66eb0e20c3",
+            "id": "cbf6ed62d80f2b72",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -86,15 +86,15 @@
     "width": 300
   },
   "right": {
-    "id": "eaa2b2051a794237",
+    "id": "d0ce124e44c18736",
     "type": "split",
     "children": [
       {
-        "id": "d880e8502c84510e",
+        "id": "347e14c6e2a2ee20",
         "type": "tabs",
         "children": [
           {
-            "id": "28f809560a36a08a",
+            "id": "b4570b36af6ecfb6",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -113,7 +113,7 @@
             }
           },
           {
-            "id": "0e7b38853106188e",
+            "id": "5ad7846ea6c06f7f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -127,7 +127,7 @@
             }
           },
           {
-            "id": "2064ebc49bcd6acf",
+            "id": "b3f1316502c632c9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,7 +142,7 @@
             }
           },
           {
-            "id": "00e79798742ed58b",
+            "id": "07ae8b684ada1212",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -156,7 +156,7 @@
             }
           },
           {
-            "id": "a76492181e7bb53f",
+            "id": "4528c37374637aa4",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -188,13 +188,9 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "941a6392bc8c5e25",
+  "active": "4bcff38c9d897c44",
   "lastOpenFiles": [
-    "Техничка/План разработки Demo 1.0.md",
     "Техничка/Инициализация бота.md",
-    "Техничка/Правильная архитектура.md",
-    "Техничка/Реагирование на команду start.md",
-    "Техничка/Инициализация клавиатуры к приветственному сообщению.md",
-    "AI Student Assistant.md"
+    "Техничка/План разработки Demo 1.0.md"
   ]
 }
