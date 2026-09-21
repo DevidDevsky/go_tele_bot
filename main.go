@@ -54,7 +54,7 @@ func main() {
 
 	updates := telegramBot.GetUpdatesChan(updateConfig)
 
-	for range updates {
-		// Пока ничего не делаем
+	for update := range updates {
+		HandleUpdate(telegramBot, update)
 	}
 }
