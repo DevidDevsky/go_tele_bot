@@ -6,9 +6,9 @@ import (
 
 func StartKeyboard() tgbotapi.InlineKeyboardMarkup {
 	scheduleButton := tgbotapi.NewInlineKeyboardButtonData("Расписание", "schedule")
-	landmarkButton := tgbotapi.NewInlineKeyboardButtonData("Ориентир", "landmark")
+	newsButton := tgbotapi.NewInlineKeyboardButtonData("Новости", "news")
 
-	row := []tgbotapi.InlineKeyboardButton{scheduleButton, landmarkButton}
+	row := []tgbotapi.InlineKeyboardButton{scheduleButton, newsButton}
 
 	keyboard := tgbotapi.NewInlineKeyboardMarkup(row)
 	return keyboard
