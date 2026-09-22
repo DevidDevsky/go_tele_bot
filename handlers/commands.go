@@ -6,7 +6,7 @@ import (
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
-// функция которая отправяет что-то на определенную команду можешь через switch
+// функция которая определяет какой тип апдейта пришел и вызывает соответствующую функцию для обработки
 func HandleCommands(ctx *HandlerContext) {
 	if ctx.Update.Message.IsCommand() {
 		switch ctx.Update.Message.Command() {
@@ -22,6 +22,7 @@ func HandleCommands(ctx *HandlerContext) {
 	}
 }
 
+// Функция которая обрабатывает команду /start
 func HandleStart(ctx *HandlerContext) {
 	log.Printf("%#v", ctx.UserInfo) //next to db
 	text := `👋 Добро пожаловать в ScheduleBot!
