@@ -1,6 +1,7 @@
 ﻿package handlers
 
 import (
+	"go_tele_bot/keyboards"
 	"log"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
@@ -37,6 +38,10 @@ func HandleStart(ctx *HandlerContext) {
 	Чтобы начать, выберите свою группу 👇`
 
 	msg := tgbotapi.NewMessage(ctx.UserInfo.ChatID, text)
+
+	keyboard := keyboards.StartKeyboard()
+	msg.ReplyMarkup = keyboard
+
 	_, err := ctx.Bot.Send(msg)
 	if err != nil {
 		log.Println(err)
