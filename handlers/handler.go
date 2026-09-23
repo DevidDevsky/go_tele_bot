@@ -54,6 +54,9 @@ func HandleUpdate(bot *tgbotapi.BotAPI, update tgbotapi.Update) {
 		if update.Message.IsCommand() {
 			HandleCommands(&ctx)
 			return
+		} else {
+			messageHandler(&ctx)
+			return
 		}
 	}
 
